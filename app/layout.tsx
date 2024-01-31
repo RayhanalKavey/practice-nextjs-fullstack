@@ -18,8 +18,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" data-theme="cupcake">
-      <body className={`${inter.className} max-w-full`}>
+    // <html lang="en" data-theme="cupcake">
+    <html lang="en">
+      <body className={`${inter.className} max-w-full mx-5`}>
         <Theme>
           <NavBar></NavBar>
           <main>{children}</main>
